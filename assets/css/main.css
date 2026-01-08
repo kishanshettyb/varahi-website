@@ -44,7 +44,8 @@ Version: 1.0.0
   --gt-body: #fff;
   --gt-black: #000;
   --gt-white: #fff;
-  --gt-theme: #EB3300;
+  --gt-theme: #07a6e0;
+  /* --gt-theme: #EB3300; */
   --gt-header: #161921;
   --gt-text: #696B72;
   --gt-border: #FCFCFC;
@@ -403,7 +404,8 @@ span {
 }
 
 .gt-about-wrapper .gt-about-content .gt-about-list li {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 16px;
   font-weight: 600;
   color: var(--gt-header);
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -4347,7 +4349,7 @@ span {
   top: 0px;
   left: 0px;
   z-index: -1;
-  width: 558px;
+  width: 583px;
 }
 
 .header-1.bg-theme .bg-shape img {
