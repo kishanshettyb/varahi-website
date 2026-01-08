@@ -4625,13 +4625,13 @@ span {
 .header-1 .header-main-right-item .header-right-area {
   display: flex;
   align-items: center;
-  gap: 175px;
+  gap: 375px;
   padding: 10px 0 3px;
 }
 
 @media (max-width: 1899px) {
   .header-1 .header-main-right-item .header-right-area {
-    gap: 40px;
+    gap: 140px;
   }
 }
 
