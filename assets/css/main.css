@@ -3054,7 +3054,7 @@ span {
 }
 
 .gt-why-choose-wrapper {
-  margin-bottom: -80px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 1199px) {
@@ -3081,6 +3081,7 @@ span {
 
 .gt-why-choose-wrapper .gt-why-choose-content {
   margin-left: 40px;
+  padding-top: 150px;
 }
 
 @media (max-width: 1199px) {
@@ -3108,7 +3109,7 @@ span {
   justify-content: space-between;
   border-radius: 4px;
   border: 1.2px solid rgba(155, 155, 155, 0.32);
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 @media (max-width: 1199px) {
@@ -3122,6 +3123,8 @@ span {
   align-items: center;
   gap: 24px;
   height: 120px;
+  padding: 15px;
+
 }
 
 .gt-why-choose-wrapper .gt-why-choose-content .gt-icon-items li:not(:last-child) {
@@ -3142,6 +3145,7 @@ span {
 
 .gt-why-choose-wrapper .gt-why-choose-content .gt-icon-items li .content h4 {
   color: var(--gt-white);
+  font-size: 1rem;
 }
 
 .gt-why-choose-wrapper .gt-why-choose-content .gt-about-button {
@@ -4909,9 +4913,9 @@ span {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.sticky.header-1 .bg-shape {
+/* .sticky.header-1 .bg-shape {
   top: -20px;
-}
+} */
 
 .sticky.header-1 .header-logo-2 {
   display: block;
@@ -8799,7 +8803,7 @@ span {
   padding-top: 0;
   background-color: var(--gt-bg);
   display: flex;
-  align-items: end;
+  align-items: start;
   gap: 24px;
   position: relative;
   z-index: 9;
@@ -11651,7 +11655,8 @@ span {
 
 .gt-team-wrapper-1 .gt-team-card-items-1 .gt-team-content .gt-content {
   border-radius: 4px;
-  background: #F5F5F5;
+  /* background: #F5F5F5; */
+  background: #fff;
   padding: 16px 25px;
   text-align: center;
 }
@@ -12173,3 +12178,17 @@ span {
 }
 
 /*# sourceMappingURL=main.css.map */
+.gt-service-card-items .gt-content h3 {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.gt-footer-logo img {
+  width: auto;
+  height: 100px;
+}
+
+.sticky .header-logo1 img {
+  width: 100% !important;
+  height: 100px;
+}
