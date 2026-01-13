@@ -650,7 +650,7 @@
                                 together hands-on expertise,
                                 technical precision, and a true understanding of what vehicles need to look their best,
                                 feel their best, and perform at
-                                their peak.
+                                their best.
                             </p>
                             <ul class="gt-about-list wow fadeInUp" data-wow-delay=".3s">
                                 <li>
@@ -677,15 +677,52 @@
                                 </li>
 
                             </ul>
-                            <div class="gt-about-button wow fadeInUp" data-wow-delay=".3s">
-                                <a href="#" class="gt-theme-btn">
-                                    <span class="gt-text-btn">
-                                        <span class="gt-text-2">READ MORE</span>
-                                    </span>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
+                </div>
+                <div id="about-content" class="d-none my-5">
+                    <p class="mb-4">Founded by <b>automobile</b> enthusiasts, <b>Vaaraahi</b> is not just a service
+                        center—it is a
+                        space
+                        <b> where cars and
+                            bikes are treated
+                            with respect, attention to detail, and industry-proven processes.</b> Every service we offer
+                        is
+                        guided
+                        by our founders
+                        <b> personal involvement, ensuring quality</b> standards that meet <b>enthusiast expectations as
+                            well as
+                            everyday customer needs.</b>
+                    </p>
+
+                    <p class="mb-4">We strongly believe that premium vehicle care should be accessible. That's why <b>we
+                            use
+                            high-quality
+                            products, advanced
+                            techniques, and trusted materials, while maintaining transparent and competitive
+                            pricing—delivering
+                            exceptional value
+                            without compromise</b>.</p>
+
+                    <p class="mb-4"> From <b>detailing and paint protection</b> to restoration and mechanical support,
+                        Vaaraahi
+                        is
+                        designed as a
+                        complete <b>one-stop
+                            solution for automobile care, giving customers convenience, consistency, and confidence
+                            under
+                            one
+                            roof.</b></p>
+
+                    <p class="mb-4">At <b>Vaaraahi</b>, your vehicle is not just serviced—it is <b>cared for.</b></p>
+                </div>
+                <div class="gt-about-button text-center my-5 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="javascript:void(0)" id="toggleBtn" class="gt-theme-btn">
+                        <span class="gt-text-btn">
+                            <span class="gt-text-2">READ MORE</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1994,6 +2031,22 @@
     <script src="assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
+    <script>
+        const toggleBtn = document.getElementById("toggleBtn");
+        const aboutContent = document.getElementById("about-content");
+        const btnText = toggleBtn.querySelector(".gt-text-2");
+
+        toggleBtn.addEventListener("click", function () {
+            aboutContent.classList.toggle("d-none");
+
+            if (aboutContent.classList.contains("d-none")) {
+                btnText.textContent = "READ MORE";
+            } else {
+                btnText.textContent = "READ LESS";
+            }
+        });
+    </script>
+
 </body>
 
 </html>
