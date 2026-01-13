@@ -1996,7 +1996,8 @@ span {
 }
 
 .gt-contact-us-wrapper {
-  background-color: var(--gt-bg);
+  /* background-color: var(--gt-bg);*/
+  background-color: #fff;
   padding: 48px;
   position: relative;
   border-radius: 8px;
